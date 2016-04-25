@@ -16,6 +16,9 @@
     "tests"
   ],
   "dependencies": {
-    "angular-nvd3": "^1.0.6"
+    "angular-nvd3": "^1.0.6",
+    "angular-ui-router": "^0.2.18",
+    "angular-material": "^1.0.7",
+    "angular-route": "^1.5.5"
   }
 }

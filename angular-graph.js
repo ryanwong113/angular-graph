@@ -1,4 +1,15 @@
-angular.module('angular-graph', ['nvd3', 'ui.router'])
+angular.module('angular-graph', ['nvd3', 'ui.router', 'ngRoute'])
+
+    .config(['$routeProvider', '$locationProvider', function($routeProvider, $locationProvider) {
+        $routeProvider
+          .when('', {
+            templateUrl: '',
+            controller: '',
+            controllerAs: ''
+          })
+
+        $locationProvider.html5Mode(true);
+    }])
 
     .controller('MainController', ['$scope', function($scope) {
 
